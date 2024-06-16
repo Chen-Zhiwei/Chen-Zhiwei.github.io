@@ -3,7 +3,7 @@ title: Text and Typography
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: cotes
 date: 2023-08-08
-modified_date: 2023-08-08
+modified_date: 2023-08-09
 categories: [Blogging, Demo]
 tags: [typography]
 pin: true
