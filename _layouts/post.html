@@ -26,12 +26,21 @@ tail_includes:
       </span>
 
       <!-- lastmod date -->
-      {% if page.last_modified_at and page.last_modified_at != page.date %}
+      <!-- {% if page.last_modified_at and page.last_modified_at != page.date %}
         <span>
           {{ site.data.locales[lang].post.updated }}
           {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
         </span>
+      {% endif %} -->
+      {% if page.modified_date %}
+        {% assign date_to_use = page.modified_date %}
+      {% else %}
+        {% assign date_to_use = page.date %}
       {% endif %}
+      <span>
+        {{ site.data.locales[lang].post.updated }}
+        {% include datetime.html date=date_to_use tooltip=true lang=lang %}
+      </span>
 
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
