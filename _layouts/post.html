@@ -1,6 +1,6 @@
 ---
-layout: default
-refactor: true
+layout: page
+refactor: false
 panel_includes:
   - toc
 tail_includes:
@@ -14,9 +14,6 @@ tail_includes:
 <article class="px-1">
   <header>
     <h1 data-toc-skip>{{ page.title }}</h1>
-    {% if page.description %}
-      <p class="post-desc fw-light mb-4">{{ page.description }}</p>
-    {% endif %}
 
     <div class="post-meta text-muted">
       <!-- published date -->
@@ -25,13 +22,15 @@ tail_includes:
         {% include datetime.html date=page.date tooltip=true lang=lang %}
       </span>
 
-      <!-- lastmod date -->
-      {% if page.last_modified_at and page.last_modified_at != page.date %}
-        <span>
-          {{ site.data.locales[lang].post.updated }}
-          {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
-        </span>
+      {% if page.modified_date %}
+        {% assign date_to_use = page.modified_date %}
+      {% else %}
+        {% assign date_to_use = page.date %}
       {% endif %}
+      <span>
+        {{ site.data.locales[lang].post.updated }}
+        {% include datetime.html date=date_to_use tooltip=true lang=lang %}
+      </span>
 
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
@@ -49,16 +48,19 @@ tail_includes:
           {%- endif -%}
         </div>
       {% endif %}
+      
+      
 
       <div class="d-flex justify-content-between">
         <!-- author(s) -->
+
         <span>
           {% if page.author %}
             {% assign authors = page.author %}
           {% elsif page.authors %}
             {% assign authors = page.authors %}
           {% endif %}
-
+          
           {{ site.data.locales[lang].post.written_by }}
 
           <em>
