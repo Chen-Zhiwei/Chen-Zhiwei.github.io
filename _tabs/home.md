@@ -14,7 +14,7 @@ Hi, it is Zhiwei Chen speaking. Here's my website with paper reading notes and b
 - A master student of CS from the School of Artificial Intelligence of Sun Yat-sen University (2022/09~2025/06).
 - My research interests lie in **trustworthy machine learning** and **recommender systems**.
 - I am currently working on a recommender systems project in the industry and welcome discussions.
-- Like programming, fitness, skateboarding, traveling, and music.
+- Like programming, fitness, skateboarding, knapsacking, and music.
 
 ---
 
@@ -22,10 +22,10 @@ Hi, it is Zhiwei Chen speaking. Here's my website with paper reading notes and b
 ### **Education** - **教育经历**
 ---
 
-- Master of Engineering in **Computer Technology**, Sun Yat-Sen University, School of Artificial Intelligence ([SYSU](https://sai.sysu.edu.cn/)), Sept. 2022 - Apr. 2025
-- Bachelor of Engineering in **Computer Science and Technology**, Guangxi University, School of Computer, Electronics and Information([GXU](https://scei.gxu.edu.cn/)), Sept. 2018 - Jun. 2022
+- Master of Engineering in **Electronic Information**, Sun Yat-Sen University, School of Artificial Intelligence (<a href="https://sai.sysu.edu.cn/" target="_blank">SYSU</a>), Sept. 2022 - Jun. 2025
+- Bachelor of Engineering in **Computer Science and Technology**, Guangxi University, School of Computer, Electronics and Information (<a href="https://scei.gxu.edu.cn/" target="_blank">GXU</a>), Sept. 2018 - Jun. 2022
 
-### **Work Experience**
+### **Work Experience** - **工作经历**
 ---
 <style>
 .flex-container {
@@ -78,16 +78,45 @@ Hi, it is Zhiwei Chen speaking. Here's my website with paper reading notes and b
 
 <br />
 
+### **Publications** - **论文发表**
+---
+<div>
+    <!-- title -->
+    <a href = "https://ieeexplore.ieee.org/document/10901755" target="_blank"><b><i>
+        <font size=4>Position-Independent and Stealthy Backdoor Attack</font>
+    </i></b></a>
+</div>
+<!-- authors -->
+- <i><b>Zhiwei Chen</b>, Qun Niu</i>
+<!-- title of journal or conference -->
+- <i>IEEE Global Communications Conference, 2024</i>
+<!-- tags -->
+- `Published` `CCF-C`
+
+<div>
+    <!-- title -->
+    <a href = "https://www.sciencedirect.com/science/article/pii/S0957417424027593" target="_blank"><b><i>
+        <font size=4> Black-box backdoor attack with everyday physical object in mobile crowdsourcing</font>
+    </i></b></a>
+</div>
+<!-- authors -->
+- <i><b>Zhiwei Chen</b>, Sisi Liu, Qun Niu</i>
+<!-- title of journal or conference -->
+- <i>Expert Systems with Applications, 2024</i>
+<!-- tags -->
+- `Published` `SCI-Q1`
+
 
 ### **Skills** - **技术栈**
 ---
 - `Java` `Spring` `Sql and Nosql` 
 - `Python` `Pytorch` `Tensorflow` 
+- `C++`
 
 
 
 <ul class="fa-ul">
 <li><span class="fa-li"><i class="fa-solid fa-location-dot"></i></span>Zhuhai - Guangdong - China</li>
-<li><span class="fa-li"><i class="fa-solid fa-envelope"></i></span>chenzhw75@mail2.sysu.edu.cn or chen932796750@qq.com</li>
-<li><span class="fa-li"><i class="fa-brands fa-github"></i></span>https://github.com/Chen-Zhiwei</li>
+<li><span class="fa-li"><i class="fa-solid fa-envelope"></i></span>chenzhw75@mail2.sysu.edu.cn or <a href="mailto:chen932796750@qq.com">chen932796750@qq.com</a></li>
+<li><span class="fa-li"><i class="fa-brands fa-github"></i></span><a href="https://github.com/Chen-Zhiwei" target="_blank">https://github.com/Chen-Zhiwei</a></li>
 </ul>
